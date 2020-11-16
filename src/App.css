@@ -6,6 +6,7 @@ body{
 .sky{
   display: flex;
   
+  
 
 }
 
@@ -28,9 +29,13 @@ body{
   height: 100%;
 
 }
-#red-quen{
+#red-quen-div{
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  overflow: hidden;
+  width: 80%;
+  max-width: 450px;
+  z-index: 1;
 }
