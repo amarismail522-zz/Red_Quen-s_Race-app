@@ -11,7 +11,7 @@ function App() {
       { transform: "translateY(-100%)" }
     ];
 
-    var Queen = redQueen.current.animate(
+      redQueen.current.animate(
       queenFrames, {
       easing: 'steps(7, end)',
       direction: "reverse",
