@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="wrapper">
-      <div className="sky"></div>
+      <div className="sky">hello worl</div>
       <div className="earth">
         <div className="aliceQueen">
           <img className="aliceQueen-img" ref={redQueen} alt=" " src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/641/sprite_running-alice-queen_small.png" />
